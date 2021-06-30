@@ -1,114 +1,47 @@
-.u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/92297288-0.jpeg");
-  background-position: 50% 50%;
-}
-
 .u-section-1 .u-sheet-1 {
-  min-height: 598px;
+  min-height: 500px;
 }
 
 .u-section-1 .u-text-1 {
-  background-image: none;
-  font-family: Martel;
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin: 60px 20px 0;
-}
-
-.u-section-1 .u-gallery-1 {
-  height: 364px;
-  grid-gap: 17px 17px;
-  margin: 50px auto 0;
-}
-
-.u-section-1 .u-gallery-inner-1 {
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 17px;
-}
-
-.u-section-1 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
-.u-section-1 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
-.u-section-1 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
-.u-section-1 .u-btn-1 {
-  margin: 30px auto 60px;
+  margin: 305px auto 60px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 429px;
-  }
-
   .u-section-1 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 300px;
-    grid-template-columns: auto auto auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: auto;
+    margin-top: 313px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 818px;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 689px;
-    grid-template-columns: auto auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-1 .u-gallery-inner-1 {
-    grid-template-columns: repeat(2, auto);
+  .u-section-1 .u-text-1 {
+    margin-top: 384px;
+    margin-left: 62px;
+    margin-right: 62px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1679px;
+    min-height: 548px;
   }
 
-  .u-section-1 .u-gallery-1 {
-    height: 1550px;
-    grid-template-columns: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-1 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+  .u-section-1 .u-text-1 {
+    margin-top: 321px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1105px;
+    min-height: 438px;
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 1.5rem;
-  }
-
-  .u-section-1 .u-gallery-1 {
-    height: 976px;
-    margin-right: initial;
-    margin-left: initial;
+    width: 216px;
+    margin-top: 236px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
