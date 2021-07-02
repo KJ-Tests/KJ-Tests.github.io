@@ -16,18 +16,11 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 194px;
+    min-height: 228px;
   }
 
   .u-section-1 .u-image-1 {
-    width: 214px;
-    height: 55px;
-    margin-top: 22px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: auto;
-    margin-top: 12px;
-    margin-bottom: 33px;
+    width: 340px;
+    height: 87px;
   }
 }
