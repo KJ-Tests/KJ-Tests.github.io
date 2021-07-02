@@ -33716,20 +33716,15 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 193px;
+    min-height: 199px;
   }
 
   .u-header .u-group-1 {
+    width: 340px;
     min-height: 193px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
   }
 
   .u-header .u-image-1 {
-    margin-top: 10px;
     margin-left: auto;
     width: auto;
     height: auto;
@@ -33737,7 +33732,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-text-1 {
     width: 164px;
-    margin: 10px auto 0;
+    margin: 0 auto;
   }
 }
 .u-footer {
