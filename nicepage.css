@@ -33687,52 +33687,89 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 117px;
-}
-
-.u-header .u-group-1 {
-  width: 416px;
-  min-height: 97px;
-  margin: 10px auto;
+  min-height: 104px;
 }
 
 .u-header .u-image-1 {
-  width: 223px;
-  height: 57px;
-  margin: 0 auto 0 0;
+  margin: 10px auto 0 243px;
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 223px;
-  max-height: 223px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .u-header .u-text-1 {
-  font-size: 0.625rem;
-  margin: -76px 0 -19px 251px;
+  font-size: 0.75rem;
+  margin: -77px 360px 10px 591px;
 }
-
-
-
-@media (max-width: 575px) {
+@media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 199px;
-  }
-
-  .u-header .u-group-1 {
-    width: 340px;
-    min-height: 193px;
+    min-height: 97px;
   }
 
   .u-header .u-image-1 {
-    margin-left: auto;
     width: auto;
-    height: auto;
+    margin-top: 7px;
+    margin-left: 150px;
   }
 
   .u-header .u-text-1 {
-    width: 164px;
-    margin: 0 auto;
+    width: auto;
+    margin: -80px 256px 4px 491px;
+  }
+}
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 91px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 4px;
+    margin-right: 381px;
+    margin-left: auto;
+  }
+
+  .u-header .u-text-1 {
+    margin-right: 153px;
+    margin-bottom: 1px;
+    margin-left: 381px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 81px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 14px;
+    margin-right: auto;
+    margin-left: 48px;
+  }
+
+  .u-header .u-logo-image-1 {
+    max-width: 206px;
+    max-height: 206px;
+  }
+
+  .u-header .u-text-1 {
+    font-size: 0.625rem;
+    margin: -62px 88px 5px 291px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 152px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: 9px;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .u-header .u-text-1 {
+    margin: 9px auto 9px 151px;
   }
 }
 .u-footer {
@@ -33740,7 +33777,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 21px;
+  min-height: 23px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
