@@ -33864,7 +33864,6 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-2 {
-  width: 300px;
   margin: -149px auto 0;
 }
 
@@ -33877,7 +33876,7 @@ a.u-link.u-text-hover-grey-90:hover {
   line-height: 1;
   font-size: 1.25rem;
   letter-spacing: 0px;
-  font-family: "Crimson Pro";
+  font-family: Roboto, sans-serif;
   margin: -137px 16px 33px 775px;
 }
 .u-header .u-section-row-2 {
