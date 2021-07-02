@@ -33682,31 +33682,39 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
-.u-header {
-  background-image: none;
+.u-header .u-sheet-1 {
+  min-height: 134px;
 }
 
-.u-header .u-sheet-1 {
-  min-height: 175px;
+.u-header .u-image-1 {
+  width: 80px;
+  height: 40px;
+  margin: 19px auto 0;
 }
-@media (max-width: 1199px) {
-  .u-header .u-sheet-1 {
-    min-height: 159px;
-  }
+
+.u-header .u-logo-image-1 {
+  max-width: 80px;
+  max-height: 80px;
 }
-@media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 132px;
-  }
+
+.u-header .u-menu-1 {
+  margin: 20px auto 19px;
 }
-@media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 105px;
-  }
+
+.u-header .u-nav-1 {
+  font-size: 1rem;
 }
+
+.u-header .u-nav-2 {
+  font-size: 1rem;
+}
+
+
+
 @media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 164px;
+  .u-header .u-image-1 {
+    width: auto;
+    height: auto;
   }
 }
 .u-footer {
