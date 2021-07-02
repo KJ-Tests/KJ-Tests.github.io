@@ -33709,40 +33709,35 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-text-1 {
   font-size: 0.625rem;
-  margin: -76px auto -19px 251px;
+  margin: -76px 0 -19px 251px;
 }
-@media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: auto;
-    height: auto;
-  }
-}
-@media (max-width: 991px) {
-  .u-header .u-image-1 {
-    width: 223px;
-    height: 57px;
-  }
-}
+
+
 
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 199px;
-  }
-
-  .u-header .u-group-1 {
-    width: 340px;
     min-height: 193px;
   }
 
+  .u-header .u-group-1 {
+    min-height: 193px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
   .u-header .u-image-1 {
+    margin-top: 10px;
     margin-left: auto;
+    width: auto;
+    height: auto;
   }
 
   .u-header .u-text-1 {
-    width: auto;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-bottom: 0;
+    width: 164px;
+    margin: 10px auto 0;
   }
 }
 .u-footer {
