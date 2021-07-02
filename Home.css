@@ -2,25 +2,27 @@
   min-height: 268px;
 }
 
+.u-section-1 .u-group-1 {
+  width: 340px;
+  min-height: 169px;
+  margin: 50px auto;
+}
+
 .u-section-1 .u-image-1 {
-  width: 499px;
-  height: 127px;
-  margin: 29px auto 0;
+  height: 65px;
+  width: 253px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-text-1 {
   line-height: 1;
-  font-size: 0.75rem;
-  margin: 10px auto 29px;
+  font-size: 0.625rem;
+  width: auto;
+  margin: 10px auto 0;
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
     min-height: 228px;
-  }
-
-  .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 87px;
   }
 }
