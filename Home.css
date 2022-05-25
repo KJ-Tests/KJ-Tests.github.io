@@ -1,4 +1,4 @@
-.u-section-1 {
+ .u-section-1 {
   background-image: linear-gradient(#333333, #404040);
   min-height: 751px;
 }
@@ -95,7 +95,7 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 {
+   .u-section-1 {
     min-height: 588px;
   }
 
@@ -132,7 +132,7 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-1 {
+   .u-section-1 {
     min-height: 644px;
   }
 
@@ -154,7 +154,7 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 {
+   .u-section-1 {
     min-height: 744px;
   }
 
@@ -173,7 +173,7 @@
   .u-section-1 .u-layout-cell-4 {
     min-height: 14px;
   }
-}.u-section-2 {
+} .u-section-2 {
   background-image: linear-gradient(#404040, #4d4d4d);
 }
 
@@ -448,7 +448,7 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 505px;
   }
 
@@ -484,7 +484,7 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 621px;
   }
 
@@ -507,7 +507,7 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-2 {
+   .u-section-2 {
     min-height: 473px;
   }
 
@@ -527,7 +527,7 @@
   .u-section-2 .u-layout-cell-3 {
     min-height: 99px;
   }
-}.u-section-3 {
+} .u-section-3 {
   background-image: linear-gradient(#4d4d4d, #404040);
 }
 
@@ -658,7 +658,7 @@
   .u-section-3 .u-text-1 {
     width: 320px;
   }
-}.u-section-4 {
+} .u-section-4 {
   background-image: linear-gradient(#333333, #4d4d4d);
 }
 
@@ -688,7 +688,7 @@
 
 .u-section-4 .u-image-2 {
   min-height: 200px;
-  background-image: url("images/RS8659_2020_Pioneer1000_3P_Deluxe_FL34_Red-hpr2.png");
+  background-image: url("images/RS8659_2020_Pioneer1000_3P_Deluxe_FL34_Red-hpr2-30.png");
   background-position: 50% 50%;
 }
 
@@ -893,7 +893,7 @@
   .u-section-4 .u-image-4 {
     min-height: 122px;
   }
-}.u-section-5 {
+} .u-section-5 {
   background-image: linear-gradient(#4d4d4d, #404040);
 }
 
@@ -1032,7 +1032,7 @@
     font-size: 0.75rem;
     margin-top: 18px;
   }
-}.u-section-6 {
+} .u-section-6 {
   background-image: linear-gradient(#404040, #333333);
 }
 
