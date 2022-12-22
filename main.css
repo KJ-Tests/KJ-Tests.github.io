@@ -897,6 +897,7 @@ A HORIZONTAL event
     min-width: 0; /* important for allowing to shrink all the way */
     overflow: hidden;
     font-weight: bold;
+    color: 'black';
   }
 .fc-daygrid-dot-event:hover,
   .fc-daygrid-dot-event.fc-event-mirror {
@@ -1229,7 +1230,6 @@ A VERTICAL event
   font-size: .85em;
   font-size: var(--fc-small-font-size, .85em);
   border-radius: 3px;
-  color: 'black';
 }
 .fc-timegrid-event { /* events need to be root */
   margin-bottom: 1px /* give some space from bottom */
