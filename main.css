@@ -1230,6 +1230,7 @@ A VERTICAL event
   font-size: .85em;
   font-size: var(--fc-small-font-size, .85em);
   border-radius: 3px;
+  color: 'black';
 }
 .fc-timegrid-event { /* events need to be root */
   margin-bottom: 1px /* give some space from bottom */
