@@ -691,7 +691,7 @@ A HORIZONTAL event
 
 
 :root { /* kyle edit */
-  --fc-daygrid-event-dot-width: 10px;
+  --fc-daygrid-event-dot-width: 8px;
 }
 /* help things clear margins of inner content */
 .fc-daygrid-day-frame,
@@ -873,8 +873,8 @@ A HORIZONTAL event
   position: relative; /* for z-indexes assigned later */
   white-space: nowrap;
   border-radius: 3px; /* dot event needs this to when selected */
-  font-size: .70em;
-  font-size: var(--fc-small-font-size, .70em);
+  font-size: .65em;
+  font-size: var(--fc-small-font-size, .65em);
   color: black;
 }
 /* --- the rectangle ("block") style of event --- */
