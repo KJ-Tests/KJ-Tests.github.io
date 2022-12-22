@@ -691,7 +691,7 @@ A HORIZONTAL event
 
 
 :root { /* kyle edit */
-  --fc-daygrid-event-dot-width: 12px;
+  --fc-daygrid-event-dot-width: 10px;
 }
 /* help things clear margins of inner content */
 .fc-daygrid-day-frame,
