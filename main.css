@@ -690,7 +690,7 @@ A HORIZONTAL event
   }
 
 
-:root {
+:root { /* kyle edit */
   --fc-daygrid-event-dot-width: 12px;
 }
 /* help things clear margins of inner content */
@@ -710,9 +710,9 @@ A HORIZONTAL event
     position: relative;
     z-index: 1; /* container inner z-index's because <tr>s can't do it */
   }
-.fc .fc-daygrid-day.fc-day-today {
-      background-color: rgba(255, 220, 40, 0.15);
-      background-color: var(--fc-today-bg-color, rgba(255, 220, 40, 0.15));
+.fc .fc-daygrid-day.fc-day-today { /* kyle edit */
+      background-color: rgba(29, 86, 241, 0.15);
+      background-color: var(--fc-today-bg-color, rgba(29, 86, 241, 0.15));
     }
 .fc .fc-daygrid-day-frame {
     position: relative;
@@ -869,13 +869,13 @@ A HORIZONTAL event
 .fc-liquid-hack .fc-daygrid-day-frame {
     position: static; /* will cause inner absolute stuff to expand to <td> */
   }
-.fc-daygrid-event { /* make root-level, because will be dragged-and-dropped outside of a component root */
+.fc-daygrid-event { /* make root-level, because will be dragged-and-dropped outside of a component root Kyle edit */ 
   position: relative; /* for z-indexes assigned later */
   white-space: nowrap;
   border-radius: 3px; /* dot event needs this to when selected */
-  font-size: .85em;
-  font-size: var(--fc-small-font-size, .85em);
-  color: 'pink';
+  font-size: .70em;
+  font-size: var(--fc-small-font-size, .70em);
+  color: black;
 }
 /* --- the rectangle ("block") style of event --- */
 .fc-daygrid-block-event .fc-event-time {
@@ -898,7 +898,6 @@ A HORIZONTAL event
     min-width: 0; /* important for allowing to shrink all the way */
     overflow: hidden;
     font-weight: bold;
-    color: 'green';
   }
 .fc-daygrid-dot-event:hover,
   .fc-daygrid-dot-event.fc-event-mirror {
@@ -1231,7 +1230,6 @@ A VERTICAL event
   font-size: .85em;
   font-size: var(--fc-small-font-size, .85em);
   border-radius: 3px;
-  color: 'black';
 }
 .fc-timegrid-event { /* events need to be root */
   margin-bottom: 1px /* give some space from bottom */
@@ -1322,7 +1320,7 @@ A VERTICAL event
   }
 
 
-:root {
+:root { /* kyle edit */
   --fc-list-event-dot-width: 15px;
   --fc-list-event-hover-bg-color: #f5f5f5;
 }
