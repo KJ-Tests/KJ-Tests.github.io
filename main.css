@@ -691,7 +691,7 @@ A HORIZONTAL event
 
 
 :root { /* kyle edit */
-  --fc-daygrid-event-dot-width: 8px;
+  /* --fc-daygrid-event-dot-width: 8px; */
 }
 /* help things clear margins of inner content */
 .fc-daygrid-day-frame,
@@ -870,7 +870,7 @@ A HORIZONTAL event
     position: static; /* will cause inner absolute stuff to expand to <td> */
   }
 .fc-daygrid-event { /* make root-level, because will be dragged-and-dropped outside of a component root Kyle edit */ 
-  position: relative; /* for z-indexes assigned later */
+  position: left; /* for z-indexes assigned later */
   white-space: nowrap;
   border-radius: 3px; /* dot event needs this to when selected */
   font-size: .65em;
