@@ -871,7 +871,7 @@ A HORIZONTAL event
   }
 .fc-daygrid-event { /* make root-level, because will be dragged-and-dropped outside of a component root Kyle edit */ 
   position: relative; /* for z-indexes assigned later */
-  white-space: wrap;
+  white-space: normal;
   border-radius: 3px; /* dot event needs this to when selected */
   font-size: .65em;
   font-size: var(--fc-small-font-size, .65em);
@@ -887,6 +887,11 @@ A HORIZONTAL event
   .fc-daygrid-block-event .fc-event-title {
     padding: 3px;
   }
+
+  .fc-h-event .fc-event-main-frame {
+    display: block; /* for make fc-event-title-container expand */
+    }
+
 /* --- the dot style of event --- */
 .fc-daygrid-dot-event {
   display: flex;
